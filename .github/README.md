@@ -1,6 +1,6 @@
 # Elkium
 
-Early pack development of Elkium
+Elkium development project
 
 ### Table of Contents
 * [Play Testing](#playtesting)
