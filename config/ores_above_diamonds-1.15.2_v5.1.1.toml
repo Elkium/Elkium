@@ -50,10 +50,10 @@
 	black_opal_efficiency = 20
 	#Base Attack Damage of the Amethyst Tool Set. For reference, the Diamond Tool Set has 3 base attack damage. Default = 4
 	#Range: > 0
-	amethyst_ad = 5
+	amethyst_ad = 14
 	#Base Attack Damage of the Black Opal Tool Set. Default = 5
 	#Range: > 0
-	black_opal_ad = 10
+	black_opal_ad = 28
 	#Efficiency of the Amethyst Tool Set. For reference, the Diamond Tool Set has 8 efficiency. Default = 12
 	#Range: > 0
 	amethyst_efficiency = 14
