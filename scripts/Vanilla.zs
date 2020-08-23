@@ -43,3 +43,19 @@ craftingTable.addShaped("DiamondHorseArmor", <item:minecraft:diamond_horse_armor
 	[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:diamond>], 
 	[<item:minecraft:diamond>, <item:minecraft:diamond>, <item:minecraft:diamond>], 
 	[<item:minecraft:diamond_boots>, <item:minecraft:air>, <item:minecraft:diamond_boots>]]);
+	//Cobweb to string
+craftingTable.addShapeless("CobwebString", <item:minecraft:string> * 2, 
+	[<item:minecraft:cobweb>]);
+	//string to cobweb
+craftingTable.addShaped("StringToCobweb1", <item:minecraft:cobweb>, 
+	[[<item:minecraft:string>],
+	[<item:minecraft:string>, <item:minecraft:string>]]);
+craftingTable.addShaped("StringToCobweb2", <item:minecraft:cobweb>, 
+	[[<item:minecraft:string>, <item:minecraft:string>],
+	[<item:minecraft:string>]]);
+craftingTable.addShaped("StringToCobweb3", <item:minecraft:cobweb>, 
+	[[<item:minecraft:air>, <item:minecraft:string>],
+	[<item:minecraft:string>, <item:minecraft:string>]]);
+craftingTable.addShaped("StringToCobweb4", <item:minecraft:cobweb>, 
+	[[<item:minecraft:string>, <item:minecraft:string>],
+	[<item:minecraft:air>, <item:minecraft:string>]]);
