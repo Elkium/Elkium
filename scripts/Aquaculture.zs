@@ -30,3 +30,9 @@ craftingTable.addShapeless("fshbukit22", <item:aquaculture:piranha_bucket>, [<it
 craftingTable.addShapeless("fshbukit23", <item:aquaculture:tambaqui_bucket>, [<item:aquaculture:tambaqui>, <item:minecraft:water_bucket>.transformReplace(<item:minecraft:air>),]);
 craftingTable.addShapeless("fshbukit24", <item:aquaculture:red_shrooma_bucket>, [<item:aquaculture:red_shrooma>, <item:minecraft:water_bucket>.transformReplace(<item:minecraft:air>),]);
 craftingTable.addShapeless("fshbukit25", <item:aquaculture:jellyfish_bucket>, [<item:aquaculture:jellyfish>, <item:minecraft:water_bucket>.transformReplace(<item:minecraft:air>),]);
+
+//removing og driftwood recipe
+craftingTable.removeRecipe(<item:aquaculture:driftwood>);
+//adding cool new trendy recipiey
+craftingTable.addShapeless("Driftwood", <item:upgrade_aquatic:driftwood_planks> * 4, 
+[<item:aquaculture:driftwood>]);
