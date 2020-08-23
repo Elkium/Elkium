@@ -271,3 +271,13 @@ helper.creator.windowsize.currentwidth = Current Window Width
 helper.creator.windowsize.currentheight = Current Window Height
 
 helper.menuinfo.idcopied = Copied to clipboard!
+
+helper.excludemenu = Exclude Menu
+helper.excludemenu.soft = Soft Exclude
+helper.excludemenu.full = Full Exclude
+helper.excludemenu.current = Exclude Current
+helper.excludemenu.byidentifier = Exclude By Identifier
+helper.excludemenu.remove = Remove Excluded
+helper.excludemenu.excludebundle = Exclude ALL menus starting with the given menu identifier part?
+helper.excludemenu.excludejustthis = Just This Menu
+helper.excludemenu.excludeall = All Menus
