@@ -11,7 +11,7 @@
 	#Ignore the Y-axis in difficulty calculations
 	ignoreYAxis = true
 	#The maximum difficulty value a player can have.
-	maxValue = 250.0
+	maxValue = 500.0
 	#Distance-based area modes will multiply distance by this value to get difficulty
 	distanceFactor = 0.0025
 	#EvalEx expression: A multiplier for area difficulty calculations, typically based on the number of players in the search radius.
@@ -21,12 +21,12 @@
 	sleepWarningMessage = ""
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 6.0E-4
+	changePerSecond = 0.001
 	#These players will not gain difficulty. Use either name or UUID.
 	#Note: if non-exempt players are nearby, mobs will still be stronger.
 	exemptPlayers = []
 	#The minimum difficulty value a player can have. This can be smaller from startingValue.
-	minValue = 4.0
+	minValue = 1.0
 	#Determines how difficulty is calculated.
 	#WEIGHTED_AVERAGE:
 	#weighted average of players difficulty based on distance - players further away from an area will have less of an impact
@@ -48,13 +48,13 @@
 	#Distance to look for difficulty sources (players) when calculating area difficulty.
 	searchRadius = 256
 	#The initial player difficulty value for newly spawned players.
-	startingValue = 4.0
+	startingValue = 1.0
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 3.0E-4
+		multiplier = 0.0001
 		#Time in seconds before afk change kicks in
-		time = 120.0
+		time = 30.0
 		#If true, a comment will appear to notify when you are considered afk
 		message = true
 
@@ -100,7 +100,7 @@
 
 	[mob.damage]
 		#The maximum extra attack damage a mob can receive
-		maxBoost = 5.0
+		maxBoost = 50.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
 		boostScale = 0.3
 
@@ -126,7 +126,7 @@
 		modifierMode = "ADD"
 
 		[mob.health.multiplier]
-			hostile = 0.8
+			hostile = 0.15
 			passive = 1.0E-4
 
 	[mob.blight]
